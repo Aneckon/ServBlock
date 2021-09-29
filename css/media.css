@@ -1,2 +1,143 @@
-@media(max-width: 1900px){
+@media (max-width: 1600px) {
+  .products__item-bg1 {
+    max-width: 600px;
+  }
+  .products__item-bg2 {
+    max-width: 450px;
+  }
+  .products__item-bg3 {
+    max-width: 450px;
+  }
+  .products__item-bg4 {
+    max-width: 450px;
+  }
+  .products__item-bg5 {
+    max-width: 450px;
+  }
+  .products__item-bg1::before {
+    display: none;
+  }
+  .products__item-bg2::before {
+    display: none;
+  }
+  .products__item-bg3::before {
+    display: none;
+  }
+  .products__item-bg4::before {
+    display: none;
+  }
+  .products__item-bg5::before {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .products__item-bg1 {
+    max-width: 400px;
+    height: 400px;
+  }
+  .products__item-bg2 {
+    max-width: 350px;
+    height: 400px;
+  }
+  .products__item-bg3 {
+    max-width: 350px;
+    height: 400px;
+  }
+  .products__item-bg4 {
+    max-width: 350px;
+    height: 400px;
+  }
+  .products__item-bg5 {
+    max-width: 350px;
+    height: 400px;
+  }
+  .products__item-img img {
+    max-width: 506px;
+  }
+  .software__info::before {
+    max-width: 563px;
+  }
+  .software__info::after {
+    max-width: 563px;
+    width: 100%;
+    top: 45%;
+    height: 270px;
+  }
+}
+@media (max-width: 1000px) {
+  .products__item-bg1 {
+    max-width: 200px;
+    height: 300px;
+  }
+  .products__item-bg2 {
+    max-width: 250px;
+    height: 300px;
+  }
+  .products__item-bg3 {
+    max-width: 250px;
+    height: 300px;
+  }
+  .products__item-bg4 {
+    max-width: 250px;
+    height: 300px;
+  }
+  .products__item-bg5 {
+    max-width: 250px;
+    height: 300px;
+  }
+  .products__item-img img {
+    max-width: 406px;
+  }
+  .software__info::before {
+    top: 58%;
+    max-width: 383px;
+    height: 370px;
+  }
+  .software__info::after {
+    max-width: 363px;
+    width: 100%;
+    top: 60%;
+    height: 180px;
+  }
+}
+@media (max-width: 890px) {
+  .products__item-bg1 {
+    display: none;
+  }
+  .products__item-bg2 {
+    display: none;
+  }
+  .products__item-bg3 {
+    display: none;
+  }
+  .products__item-bg4 {
+    display: none;
+  }
+  .products__item-bg5 {
+    display: none;
+  }
+  .products__item-img img {
+    max-width: 406px;
+  }
+  .products__item {
+    flex-direction: column;
+  }
+  .products__item-info {
+    padding: 20px 0;
+  }
+  .products__item-info::after {
+    display: none;
+  }
+  .products__item {
+    padding-bottom: 40px;
+  }
+  .products__inner {
+    margin-top: 50px;
+  }
+  .software__info::before {
+    display: none;
+  }
+  .software__info::after {
+    display: none;
+  }
 }
