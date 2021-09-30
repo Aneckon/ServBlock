@@ -8,7 +8,6 @@ body {
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
-  position: relative;
 }
 .header__logo{
   max-width: 350px;
