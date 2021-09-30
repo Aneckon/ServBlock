@@ -125,11 +125,13 @@
   }
 }
 @media (max-width: 890px) {
-
   .software__header{
     font-size: 24px;
     line-height: 120%;
     padding-top: 44px;
+  }
+  .products{
+    margin-top: 152px;
   }
   .footer__inner{
     margin-top: 70px;
@@ -252,7 +254,11 @@
     display: none;
   }
 }
+
 @media (max-width: 460px) {
+  .products{
+    margin-top: 72px;
+  }
   .products__header h2{
     font-size: 28px;
   }
@@ -284,7 +290,6 @@
   }
   .main__bgraund-button{
     flex-direction: column;
-    padding-top: 50px;
   }
   .main__bgraund-inner {
     padding-top: 50px;
