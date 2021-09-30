@@ -1,15 +1,26 @@
 body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+  position: relative;
 }
 .container {
   max-width: 1310px;
   width: 100%;
   padding: 0 10px;
   margin: 0 auto;
+  position: relative;
+}
+.header__logo{
+  max-width: 350px;
+  width: 100%;
+}
+.header__logo img{
+  width: 100%;
 }
 .bgaund {
   background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   max-width: 100%;
   width: 100%;
   height: 650px;
@@ -19,6 +30,14 @@ body {
   right: 0;
   margin: 0 auto;
   z-index: -1;
+}
+.footer__logo{
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer__logo img{
+  width: 100%;
 }
 .bgaund::after {
   position: absolute;
@@ -101,6 +120,8 @@ body {
   padding-bottom: 145px;
   max-width: 526px;
   width: 100%;
+  position: relative;
+  z-index: -1;
 }
 .main__bgraund-title {
   padding-bottom: 56px;
@@ -537,4 +558,7 @@ footer::before{
   font-size: 13px;
   line-height: 18px;
   color: #6A7E89;
+}
+.burger__menu{
+  display: none;
 }
